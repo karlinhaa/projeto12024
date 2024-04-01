@@ -3,23 +3,38 @@
     margin: 0;
     padding: 0;
 }
-
+body {
+    font-family: 'Poppins', sans-serif;
+}
 .cabecalho {
     background-color: rgb(163, 129, 97);
     color: rgb(0, 0, 0);
     display: flex;
     justify-content: space-around;
     align-items: center;
-    align-items: 24px 0;
+    padding: 24px 0;
 
 }
 
 .cabecalho-imagem{
-    width: 1%;
+    width: 10%;
 }
 
 .cabecalho-lista-item{
     display:inline-block;
     margin: 0 16px;
-    font-size: 24px;
+    font-size: 24px 0;
+}
+
+.escola{
+    background-image: linear-gradient(#b9a06b, rgb(139, 120, 120));
+    color:beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.escola-div-conteudo{
+    width: 10%;
 }
